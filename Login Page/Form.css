@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: block;
+    background-image: url(Background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2{
+    flex: 1;
+    padding-top: 7%;
+    color:rgb(10, 65, 44);
+    font-size: 45px;
+    
+    padding-left: 41%;
+}
+.wrapper{
+    flex: 2;
+    margin-top: 5%;
+   
+    /* background-color: aquamarine; */
+    display: block;
+    padding-left: 40%;
+    
+    padding-top: 1%;
+    border-radius: 8px ; ;
+    /* height: 50%;
+    width: 30%; */
+}
+.wrapper .usernameBox{
+    width: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3%;
+    font-size: 20px;
+    color:rgb(10, 65, 44);
+    background-color: rgb(208, 208, 208);
+    padding-left: 1%;
+    margin-bottom: 3%;
+    border-radius: 8px ; ;
+}
+.wrapper .password{
+    width: 35%;
+    height: 3%;
+    background-color: rgb(208, 208, 208);
+    padding-left: 1%;
+    font-size: 20px;
+    margin-bottom: 2%;
+    border-radius: 8px ;
+    
+}
+.wrapper .submitBtn{
+    width: 15%;
+    height: 3%;
+    color:rgb(247, 247, 247);
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: rgb(125, 139, 117);
+    font-size: 16px;
+    border-radius: 8px ; ;
+}
+.wrapper .resetBtn{
+    width: 13%;
+    height: 3%;
+    color:rgb(10, 65, 44);
+    margin-bottom: 2%;
+    background-color: rgb(208, 208, 208);
+    /* margin-left: 10%; */
+    font-size: 16px;
+    margin-top: 2%;
+    /* margin-left: 0.6px; */
+    border-radius: 8px ; ;
+
+}
+.wrapper .creatBtn{
+    width: 13%;
+    height: 3%;
+    color:rgb(10, 65, 44);
+    background-color: rgb(208, 208, 208);
+    margin-bottom: 2%;
+    margin-left: 8%;
+    font-size: 16px;
+    border-radius: 8px ; ;
+    
+}
+
